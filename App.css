@@ -1,0 +1,107 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+}
+
+.header-title {
+  font-size: 36px;
+  margin: 0;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Set flex-direction to row */
+  justify-content: space-around;
+}
+
+header ul li {
+  margin: 0 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+  
+}
+
+header ul li a:hover {
+  color: #ecf0f1; /* Change color on hover (light gray) */
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.contact-info,
+.social-media {
+  flex: 1;
+  padding: 0 20px;
+  text-align: right;
+  
+}
+.quick-links {
+  flex: 1;
+  padding: 0 20px;
+  text-align: left; /* Align text to the left */
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for specific elements can be added as needed */
+
